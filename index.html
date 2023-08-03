@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de convidados</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header><h2>lista de convidados</h2></header>
+    <main><div>
+<input type="text"placeholder="insira os nomes dos convidados" id="nomes">
+<br>
+<button onclick="enviarnomes()">enviar</button>
+<br>
+<hr>
+<div id="mostarnomes"></div><hr>
+<div id="organizar"></div>
+<button onclick="nomelistas()">mostrar</button>
+<p id="nomesemlista"></p>
+    </div>
+    <hr>
+    <button onclick="emordemalfabetica()">lista organizada</button>
+    <div id="ordemalfabetica"></div>
+    <hr>
+    <input type="text"placeholder="pesquisar nome" id="pesquisarnome">
+    <button onclick="persquisarnome()">pesquisar</button>
+    <p id="nomeslocalizados"></p>
+</main>
+    <footer>
+        desenvolvido por joao
+    </footer>
+    
+</body>
+</html>
